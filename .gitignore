@@ -273,3 +273,6 @@ build-iPhoneSimulator/
  
 # All generated executables
 exec/
+
+# Makefile
+Makefile
