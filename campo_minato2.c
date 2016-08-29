@@ -142,7 +142,6 @@ Stampa a video il menù di gioco.*/
 void menu(void)
 {
 	char scelta = '\0';
-	int fine=1;
 	
 	while( fine==1 )
 	{
