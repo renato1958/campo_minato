@@ -165,9 +165,6 @@ void menu(void)
 						reset(tab);
 						reset(scop);
 						reset(band);
-						reset(tab);
-						reset(scop);
-						reset(band);
 						gen_mine(tab);
 						comp_mat(tab);
 						ins_coord();
