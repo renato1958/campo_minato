@@ -143,7 +143,7 @@ void menu(void)
 {
 	char scelta = '\0';
 	
-	while( fine==1 )
+	while(scelta != '5' )
 	{
 		printf("\nMenù di gioco:\n");
 		printf("0. Istruzioni di gioco.\n");
@@ -152,8 +152,8 @@ void menu(void)
 		printf("3. Aggiungi bandierine.\n");
 		printf("4. Rimuovi bandierine.\n");
 		printf("5. Esci.\n> ");
-		
-		scelta=getchar();
+
+		scelta = getchar();
 		getchar();
 		
 		switch(scelta)
@@ -193,15 +193,16 @@ void menu(void)
 								ins_coord();
 						}
 			break;
-			case '5': fine=0;
+			case '5':
 			break;
 			default: printf("Opzione non disponibile.");
+			break;
 		}
 		
 		printf("\n");
 	}
 	
-	return;
+	//return;
 }
 
 /* ins_coord:
