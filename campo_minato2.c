@@ -87,7 +87,7 @@ void istr(void)
 	getchar();
 	printf("2. Sotto la casella non c'è una mina, ma nelle caselle circostanti (ovvero quelle che si trovano nel quadrato 3x3 il cui centro è costituito dalla casella stessa) vi sono una o più mine: in tal caso, la casella viene scoperta e mostra un numero corrispondente a quello delle mine situate nelle caselle adiacenti. ");
 	getchar();
-	printf("3. Sotto la casella non c'è una mina e nemmeno nelle caselle circostanti: in tal caso, viene scoperto l'intero quadrato 3x3 il cui centro è costituito dalla casella stessa. Nel caso in cui anche una o più delle caselle adiacenti sia tale da essere isolata da mine, il processo viene ripetuto per ognuna di esse. ");
+	printf("3. Sotto la casella non c'è una mina e nemmeno nelle caselle circostanti: in tal caso, viene scoperto l'intero quadrato 3x3 il cui centro è costituito dalla casella stessa. Nel caso in cui anche una o più delle caselle adiacenti sia tale da essere libera da mine, il processo viene ripetuto per ognuna di esse. ");
 	getchar();
 	printf("Facciamo un esempio: supponiamo che nelle vicinanze della casella scoperta precedentemente vi siano due mine. ");
 	getchar();
