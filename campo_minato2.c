@@ -43,7 +43,7 @@ void istr(void)
 	getchar();
 	printf("Ogni casella coperta è segnalata da un asterisco (*). ");
 	getchar();
-	printf("Sotto a 10 caselle tra le 81 totali è nascosta una mina che, esplodendo, fa terminare la partita. ");
+	printf("Sotto 10 caselle tra le 81 totali è nascosta una mina che, esplodendo, fa terminare la partita. ");
 	getchar();
 	printf("L'obiettivo del gioco è scoprire tutte le caselle sotto alle quali non si nasconde alcuna mina. ");
 	getchar();
