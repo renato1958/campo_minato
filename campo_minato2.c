@@ -45,7 +45,7 @@ void istr(void)
 	getchar();
 	printf("Sotto 10 caselle tra le 81 totali è nascosta una mina che, esplodendo, fa terminare la partita. ");
 	getchar();
-	printf("L'obiettivo del gioco è scoprire tutte le caselle sotto alle quali non si nasconde alcuna mina. ");
+	printf("L'obiettivo del gioco è scoprire tutte le caselle sotto le quali non si nasconde alcuna mina. ");
 	getchar();
 	printf("Il giocatore deve scegliere quali caselle scoprire, digitando le coordinate (numeri interi da 1 a 9) nel formato (x.y). ");
 	getchar();
