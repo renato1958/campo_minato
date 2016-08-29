@@ -201,8 +201,6 @@ void menu(void)
 		
 		printf("\n");
 	}
-	
-	//return;
 }
 
 /* ins_coord:
